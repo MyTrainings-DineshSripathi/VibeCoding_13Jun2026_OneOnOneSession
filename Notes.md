@@ -133,3 +133,102 @@ To Link Js with HTML :
             -- (=) is used to assign values to variable.
                 syntax :
                     variableName = value/data
+        -- Arth Op : 
+            -- +, -, *, /, %, **
+            -- BODMAS 
+            -- (2 + 3) * 4
+
+            -- 5/2 = 2.5
+                2)5(2.5
+                  4
+                -----
+                  10
+                  10
+                  --
+                   0
+            -- 5%2 = 1
+
+                2)5(2
+                  4
+                -----
+                  1
+            -- 2^4 
+                2 ** 4
+        -- comp op : 
+            -- >, <, >=, <=, ==, !=, ===, !==
+            -- result will be in boolean (true or false)
+        -- logical op : 
+            -- &&, ||, !
+            -- will combine the two boolean values and generate one boolean value. 
+            -- && 
+                -- will accept two boolean values and generate one boolean value
+                    boolean1 && boolean2
+        -- uniary operator : 
+            -- these operators are used to update a value by 1.
+            -- increment (++)
+            -- decrement (--)
+
+                -- pre : 
+                    -- First we will update the value --> utilize it. 
+                    syntax : 
+                        symbol variable
+                -- post
+                    -- First we will use the value --> update it.
+                    syntax : 
+                        variable symbol
+        -- conditional operator : 
+            -- it will execute the code based on the condition.
+            syntax : 
+                (condition)? true-block : false-block
+            -- The draw back is it can only evaluate one statement.
+=====================================================================================
+Conditional Statements : 
+    -- We will execute set of statements with the help of condition similar to conditional operator.
+    -- if : 
+        -- it will execute only when the condition is true. if condition is false then it will skip.
+        syntax : 
+            if(condition){
+                block of statements
+            }
+    -- if else
+        -- it will execute only when the condition is true or it will execute the else block.
+        syntax : 
+            if(condition){
+
+            }else{
+
+            }
+    -- if else if 
+        -- will evalute the multiple conditions.
+        syntax : 
+            if(condition){
+
+            }else if(condition){
+
+            }else if(condition){
+
+            }
+            .
+            .
+            .
+            else{
+
+            }
+    -- switch
+        -- we are going to have cases.
+        -- case will have a value. inside switch we will pass a value and the value which we are passing needs to be matched with the case value.
+        -- it will execute the case only when the value is matching with the given value. 
+        -- to end the execution of a case we will use the break statement.
+        syntax : 
+            switch(input){
+                case value : 
+                    block of statement
+                    break;
+                .
+                .
+                .
+                default : 
+                    block of statement
+                    break;
+            }
+==========================================================================
