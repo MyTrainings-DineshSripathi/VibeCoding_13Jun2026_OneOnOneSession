@@ -229,6 +229,15 @@ Person person = new Person("Robert", 35);
 String personName = person.getName();
 ```
 
+## 4. This Keyword
+To represent the class variables. So that the java can differentiate the class variables with parameters.
+
+```
+syntax :
+this.classVariable = parameter
+
+```
+
 ---
 
 ## 2. Object
@@ -351,3 +360,31 @@ There are two types:
 * **Polymorphism** → Enable multiple behaviors
 
 Java's object-oriented nature makes it a powerful choice for developing scalable and maintainable backend applications.
+
+---
+
+# Operators : 
+They are specifically used to perform operations. These are like tools.
+## 1. Arithmetic Operators : 
+    +, -, *, /, %
+    These arithmetic operators follow BODMAS Rule.
+## 2. Assignment Operators : 
+    We are assigning values to the variables.
+    We have to use '=' sign as assignment operator.
+    `
+    syntax :
+    locationName(variable/Object) = value
+    `
+
+    -- Short Hand Assignment : 
+    When we want to perform a mathematical operation b/w 2 variables and want to store the values inside any one of the 2 variable we have to repeat the variable name two times. 
+    One at the expression side and second at the assignment side
+    We can eliminate this particular expression.
+    -- +=, -=, *=, /=, %=
+## 3. Comparison Operators :  
+    >, >=, <, <=, ==, !=
+    When ever we perform the comparison operations we will get the boolean value as a result.
+## 4. Logical Operators : 
+    &&, ||, !
+## 5. Conditional Operators : 
+    (condition)? true block : false block;
